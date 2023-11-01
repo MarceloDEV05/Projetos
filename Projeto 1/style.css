@@ -39,3 +39,10 @@ article button{
     cursor: pointer;
     background-image:linear-gradient(rgb(109, 188, 253), rgb(243, 243, 243));
 }
+
+@media screen and (max-width:700px){
+    header{
+        width: 290px;
+    }
+    
+}
