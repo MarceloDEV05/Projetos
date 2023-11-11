@@ -1,0 +1,16 @@
+body{
+    background-color: #1c1c1c;
+    color: white;
+}
+
+div{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 100px;
+    line-height: 0px;
+   
+}
+
+div p{
+    font-size: 20px;
+}
