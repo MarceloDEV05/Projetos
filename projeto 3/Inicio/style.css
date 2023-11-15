@@ -24,18 +24,31 @@ nav ul li{
     display: inline;
     padding-right:40px;
 }
+nav ul li a:hover{
+    color: orange;
+    box-shadow: 0 1px 0;
+
+}
 
 nav ul button{
     padding: 10px;
     border-radius: 10px;
     background-color: orange;
     border-color: orange;
+    transition: padding 0.5s; 
+    box-shadow: none;
+}
+
+nav ul button:hover{
+    padding: 15px;
+    box-shadow: none;
 }
 
 a{
     text-decoration: none;
     color: white;
 }
+
 
 section{
     background-color: brown;
@@ -57,7 +70,13 @@ section button{
     border-radius: 8px;
     background-color: orange;
     color: white;
-    border-color: orange;
+    border:none;
+    transition: padding 0.5s; 
+    box-shadow: none;
+}
+
+section button:hover{
+    padding: 15px;
 }
 
 .container-body div{
@@ -131,8 +150,10 @@ aside{
     border-radius: 8px;
     border: none;
     background-color: green;
+    transition: all 0.5s;
    
 }
 
-
-
+.cont button:hover{
+    padding: 13px;
+}
