@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+
+body{
+    font-family: poppins ;
+    margin: 0;
+    background-color: brown;
+}
+.container{
+    background-color: black;
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header h1{
+    padding-left:40px ;
+}
+
+nav ul li{
+    display: inline;
+    padding-right:40px;
+}
+
+nav ul button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    border-color: orange;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    background-color: brown;
+    padding-left: 20px;
+    
+}
+
+section h2{
+    color: orange;
+}
+
+section p{
+    width: 200px;
+    color: aliceblue;
+}
+
+section button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+.container-body div{
+    display: flex;
+    justify-content: space-around;
+}
+
+aside{
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.container-promo{
+    padding: 80px;
+}
+.container-promo h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+.promocoes{
+    display: flex;
+    color: white;
+   
+}
+
+.promo1{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.promo1 img{
+    background-color: rgb(255, 208, 0);
+    border-radius: 20px;
+    box-shadow: 4px 8px 16px rgb(255, 208, 0);
+}
+
+.promo2{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.promo2 img{
+    background-color: rgb(255, 208, 0);
+    border-radius: 20px;
+    box-shadow: 4px 8px 16px rgb(255, 208, 0);
+}
+
+.promo3{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px; 
+}
+.promo3 img{
+    background-color: rgb(255, 208, 0);
+    height: 120px;
+    border-radius: 20px;
+    box-shadow: 4px 8px 16px rgb(255, 208, 0);
+}
+
+.container-cont h2{
+    color: white;
+    text-align: center;
+    
+}
+.container-cont {
+    text-align: center;
+}
+
+.cont button{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: green;
+   
+}
+
+
+
