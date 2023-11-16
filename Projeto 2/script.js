@@ -4,15 +4,10 @@ var sec = 0;
 var timer
 
 
-function zero(num){
-    if(num < 10){
-        return "0" + num
-    }else{
-        return num
-    }
-}
+
 
 function start(){
+    cronometro()
     timer = setInterval(cronometro, 1000)
 
 }
@@ -36,4 +31,12 @@ function cronometro(){
         }
     }
     document.getElementById('tempo').innerText =zero(hora)+':'+zero(mnt)+':'+zero(sec)
+}
+
+function zero(num){
+    if(num < 10){
+        return "0" + num
+    }else{
+        return num
+    }
 }
