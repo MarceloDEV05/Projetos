@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Poppins:ital,wght@0,200;0,300;1,200&family=Tomorrow:ital,wght@1,700&display=swap');
+
+body{
+    background-image: url(/img/80e80b0941684079ca53a49520aeea95.jpg);
+    color: aliceblue;
+    text-align: center;
+    padding-top:120px ;
+    font-size: 30px;
+}
+
+button{
+    padding: 8px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: rgb(81, 81, 235);
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+
+button:hover{
+    padding: 15px;
+    
+}
+
+h1{
+    font-family: tomorrow;
+    border: none;
+    
+}
