@@ -22,17 +22,25 @@ button{
     border-radius: 10px;
     cursor: pointer;
     border: none  ;
+    transition: 0.5s;
 }
 
 .b1{
-    background-color: #1c1;
+    background-color: rgb(17, 76, 204);
     color: white;
+    width: 100px;
 }
 .b2{
     background-color: red;
     color: white;
+    width: 100px;
 }
 .b3{
     background-color: gray;
     color: white;
+    width: 100px;
+}
+
+button:hover{
+    width: 115px;
 }
