@@ -5,13 +5,11 @@ var timer
 
 
 function start(){
-   
-    if(!timer){
-        cronometro()
-        timer = setInterval(cronometro, 1000)
-    }
-
+   cronometro()
+    timer = setInterval(cronometro, 1000)
 }
+
+
 
 function pause(){
     clearInterval(timer)
@@ -20,7 +18,7 @@ function pause(){
 
 function reset(){
     clearInterval(cronometro)
-    timer = null
+
     hora = 0
     mnt = 0
     sec = 0
