@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient(blue, red);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    border: 1px solid;
+    width: 258px;
+    height: 415px;
+    margin: 8.1rem auto;
+    border-radius: 10px;
+    background-color: #1c1c1c;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: transparent;
+    margin: 15px;
+    text-align: right;
+    width: 215px;
+    height: 20px;
+   
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+table{
+    margin-left: 20px;
+    
+}
