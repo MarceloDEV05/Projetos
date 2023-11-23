@@ -1,6 +1,6 @@
 function clique(num) {
    var numero = document.getElementById("resp").innerHTML;
-   document.getElementById("resp").innerHTML = numero + num;
+   document.getElementById("resp").innerHTML = numero+num;
 }
 
 function clean(){
