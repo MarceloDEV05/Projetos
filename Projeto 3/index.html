@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <h1>Calculadora</h1>
+
+            <p id="soma"></p>
+
+            <table>
+                <tr>
+                    <td><button class="botao" onclick="limpar()">C</button></td>
+                    <td><button class="botao" onclick="numb('/')">/</button></td>
+                    <td><button class="botao" onclick="numb('*')">x</button></td>
+                    <td><button class="botao" onclick="delet()">del</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botao" onclick="numb('7')">7</button></td>
+                    <td><button class="botao" onclick="numb('8')">8</button></td>
+                    <td><button class="botao" onclick="numb('9')">9</button></td>
+                    <td><button class="botao" onclick="numb('-')">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botao" onclick="numb('4')">4</button></td>
+                    <td><button class="botao" onclick="numb('5')">5</button></td>
+                    <td><button class="botao" onclick="numb('6')">6</button></td>
+                    <td><button class="botao" onclick="numb('+')">+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botao" onclick="numb('1')">1</button></td>
+                    <td><button class="botao" onclick="numb('2')">2</button></td>
+                    <td><button class="botao" onclick="numb('3')">3</button></td>
+                    <td rowspan="2"><button class="botao" onclick="calc()" style="height: 106px;">=</button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><button class="botao" onclick="numb('0')" style="width: 106px;">0</button></td>
+                    <td><button class="botao" onclick="numb(',')">,</button></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
