@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Nunito:wght@300&family=Poppins:ital,wght@0,200;0,300;1,200&family=Tomorrow:ital,wght@0,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Montserrat:ital,wght@0,200;1,200&family=Nunito:wght@300&family=Poppins:ital,wght@0,200;0,300;1,200&family=Tomorrow:ital,wght@0,300;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+     color: white;
+    font-family: nunito;
+   
+}
+
+.hamburguer{
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+
+
+.containerHead{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 70px;
+   background-color: black;
+   color: white;
+   border-bottom: 2px solid purple;
+     
+    
+}
+
+.containerHead header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.1rem;
+   
+}
+
+.containerHead header h1{
+    font-family: ephesis;
+}
+
+.containerHead ul li{
+    display: inline;
+    padding: 40px;
+    
+    
+}
+
+.containerHead ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+ul li a:hover{
+    color: purple;
+}
+
+.containerBody{
+    justify-content: space-around ;
+    flex-direction: row;
+    display: flex;
+    background-color: black ;
+    height: 100vh;
+    padding-top: 170px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.containerBody p{
+    width: 400px;
+    font-size: 20px;
+}
+
+.containerBody img{
+    border-radius: 550px;
+
+}
+
+.containerBody h1{
+     font-size: 50px;
+     font-family: ephesis;
+   
+}
+
+.containerBody button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: purple;
+    border: none;
+    transition: all 0.5s;
+}
+
+button:hover{
+    padding: 20px;
+}
+  
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.containerSub{
+    padding-top: 40px;
+    background-color: purple;
+    color: rgb(255, 255, 255);
+}
+.containerSub h1{
+    text-align: center;
+
+}
+ 
+.containerSub h2{
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.containerSub article{
+    
+    text-align: center;
+}
+
+.containerCont{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.containerCont h1{
+    text-align: center;
+}
+
+.containerCont article{
+    text-align: center;
+   padding-top: 50px ;
+    
+}
+
+img{
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 #000;
+}
+
+
+@media screen and (max-width:750px) {
+    body{
+        background-color: #000;
+    }
+    .containerHead{
+        border: none;
+        height: 100px;
+        
+        
+    }
+    .containerHead header{
+        position: fixed;
+        text-align: center;
+        border-bottom: purple;
+        flex-direction: column ;
+    }
+
+    .containerBody{
+      flex-direction: column-reverse;
+      
+    }
+    .containerBody p{
+        font-size: 20px;
+        width: 500px;
+        
+    }
+
+    .containerBody article{
+        text-align: center;
+       
+
+    }
+
+    img{
+        width: 200px;
+
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .containerSub section{
+        text-align: center;
+        margin-right: 0;
+    }
+
+    button{
+        display: none;
+    }
+}
