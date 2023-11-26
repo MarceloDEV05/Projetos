@@ -149,9 +149,8 @@ img{
 
 
 @media screen and (max-width:750px) {
-    body{
-        background-color: #000;
-    }
+    
+    
     .containerHead{
         border: none;
         height: 100px;
@@ -161,8 +160,13 @@ img{
     .containerHead header{
         position: fixed;
         text-align: center;
-        border-bottom: purple;
         flex-direction: column ;
+    
+    }
+
+    .containerHead ul li {
+        padding: 10px;
+        text-align: center;
     }
 
     .containerBody{
@@ -196,10 +200,14 @@ img{
     }
 
     .containerBody p{
-        width: 400px;
+       display: none;
     }
 
     button{
         display: none;
+    }
+
+    .containerCont img{
+        width: 90px;
     }
 }
