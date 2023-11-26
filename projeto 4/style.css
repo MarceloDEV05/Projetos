@@ -190,13 +190,13 @@ img{
         text-align: center;
     }
 
-    .containerSub section{
+    .containerSub{
         text-align: center;
-        margin-right: 0;
+        padding-top: 90px;
     }
 
-    p{
-        width: 300px;
+    .containerBody p{
+        width: 400px;
     }
 
     button{
