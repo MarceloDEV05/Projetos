@@ -11,5 +11,9 @@ function verificarLitros(){
     let resultado = document.getElementById('resultado')
     resultado.innerHTML = "De acordo com seu peso, você deve consumir " + litros + " litros e " + mililitros + "ml de água por dia!"
 
+    if(litros < 2){
+        resultado.innerHTML = "De acordo com seu peso, você deve consumir " + litros + " litro e " + mililitros + "ml de água por dia!"
+    }
+
 }
 
