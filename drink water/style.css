@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(white, rgb(0, 183, 255));
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    width: 110px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover{
+    padding: 10px;
+    background-color: rgb(0, 174, 255);
+}
+
+p{
+    font-weight: 800;
+}
+
+p#resultado{
+    background-color: white;
+    border:none;
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.img1{
+    float: left;
+    padding-left: 250px;
+}
+
+.img2{
+    float: right;
+    padding-right: 250px;
+}
+
+
+@media screen and (max-width:600px) {
+    body{
+        text-align: center;
+    }
+    
+    .img1, .img2{
+        display: none;
+    }
+
+}
