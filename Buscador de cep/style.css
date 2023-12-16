@@ -64,5 +64,11 @@ body{
     height: 200px;
     border-radius: 8px;
     margin: 0 auto;
+    align-items: center;
+
     
+}
+
+p#buscado{
+   padding-top: 60px;
 }
