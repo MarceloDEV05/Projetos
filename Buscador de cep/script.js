@@ -2,8 +2,6 @@ let span = document.getElementById('buscador')
 let input = document.getElementById('inputCep')
 span.addEventListener('click', buscarCep)
 
-
-
 async function buscarCep() {
 
     let cep = input.value
@@ -23,6 +21,4 @@ async function buscarCep() {
     `
     p.innerHTML = apiInfo
 
-
-    
 }
