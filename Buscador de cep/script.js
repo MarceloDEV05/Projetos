@@ -12,6 +12,7 @@ async function buscarCep() {
     const data = await response.json()
     console.log(data)
 
+ 
     let p = document.getElementById('buscado')
 
     let apiInfo = `
