@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>App de previsão</title>
+</head>
+
+<body>
+    <div class="containerSearch">
+        <input type="text" id="inputCity" placeholder="Digite uma Cidade">
+        <button id="buscarPrev" onclick="dataPrev()">
+            <span class="material-symbols-outlined">search</span></button>
+
+        <div class="containerInfo">
+
+            <p id="grau">25°C</p>
+
+
+            <div class="containerCity">
+                <h1 id="nameCity">São Paulo</h1>
+
+                <article>
+                    <p id="infos">Ensolarado</p><img id="imgTemp"
+                        src="/assets/pngtree-sun-orange-three-dimensional-illustration-png-image_6694186.png"
+                        width="50">
+                </article>
+                <p id="umid">Umidade: 70%</p>
+                <p id="tempMax">Max:</p>
+                <p id="tempMin">Min:</p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
